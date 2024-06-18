@@ -1,0 +1,34 @@
+<div class="wrapper">
+  <div class="form-box">
+    <div class="register-container">
+      <div class="top">
+        <span>Vous avez déjà un compte ? <a routerLink="/login">Connexion</a></span>
+        <header>Inscription</header>
+      </div>
+      <div class="input-box">
+        <input type="text" class="input-field" placeholder="Nom d'utilisateur" [(ngModel)]="username" />
+        <i class="bx bx-user"></i>
+      </div>
+      <div class="input-box">
+        <input type="text" class="input-field" placeholder="Email" [(ngModel)]="email" />
+        <i class="bx bx-envelope"></i>
+      </div>
+      <div class="input-box">
+        <input type="password" class="input-field" placeholder="Mot de passe" [(ngModel)]="password" />
+        <i class="bx bx-lock-alt"></i>
+      </div>
+      <div class="input-box">
+        <button (click)="register()" class="submit">Enregistrer</button>
+      </div>
+      <div class="two-col">
+        <div class="one">
+          <input type="checkbox" id="register-check" />
+          <label for="register-check"> Se souvenir de moi</label>
+        </div>
+        <div class="two">
+          <label><a href="#">Terms & conditions</a></label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
