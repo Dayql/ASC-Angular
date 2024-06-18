@@ -45,13 +45,10 @@ Avant de lancer l'API, assurez-vous d'avoir une base de données PostgreSQL exis
 
 ## Configuration Environnementale
 
-Pour configurer l'environnement de l'API, avant de lancer le serveur, modifier le fichier `.env` à la racine du projet avec la variables suivantes :
+Pour configurer l'environnement de l'API, avant de lancer le serveur, modifier le fichier `.env` à la racine du projet avec les variables suivantes :
 
 - `SERVER_PORT` : le port sur lequel le serveur va s'exécuter (par exemple, 3000).
 - `DATABASE_URI` : informations de connexion à la base de données PostgreSQL.
-- `BCRYPT_SALT_ROUND` : le nombre de tours pour le salage du mot de passe avec bcrypt. (par exemple, 10)
-- `JWT_SECRET` : une clé secrète pour signer les tokens JWT. (par exemple, @Lp*Y!5bQqN@3gTfXh)
-- `JWT_DURING` : la durée de validité du token JWT. (par exemple, 1 hour)
 
 ## Utilisation
 
